@@ -20,4 +20,13 @@ ul li {
 
 }
 
+.social {
+    position: fixed;
+    bottom: 7%;
+    left: 75%;
+    gap: 30px;
+}
+
+
+
 /* #1A73E8 - before hover after- 1751AB */
