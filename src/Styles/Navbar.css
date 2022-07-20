@@ -1,0 +1,23 @@
+.shadow {
+    border: 1px solid white;
+}
+
+ul li {
+    padding-right: 25px;
+}
+
+.sign {
+    color: #1979f7;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 15rem;
+}
+
+.register {
+    border: 1px solid #1979f7;
+    background-color: #1979f7;
+    color: white;
+
+}
+
+/* #1A73E8 - before hover after- 1751AB */
