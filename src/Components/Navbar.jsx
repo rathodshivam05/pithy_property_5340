@@ -3,7 +3,7 @@ import '../Styles/Navbar.css';
 
 const Navbar = () => {
     return (
-        <nav className="navbar sticky-top navbar-expand-lg boxShadow='2xl' shadow" >
+        <nav className="navbar shadow navbar-expand-lg boxShadow='2xl' " >
             <div className="container-fluid">
                 <Link to="/" className="navbar-brand gap"><img src="https://lh3.googleusercontent.com/kvtXWUZ756KishzmjWDgAf0AW77QeBSuLbUXDQidstlS2h63BSRrlgm4bU97NPjdF5skHZFKQufqTqGt1UbTO8VV0OB7SqXAz7qCng=-rw" width="212px" height="24px" alt="" /></Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">

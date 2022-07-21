@@ -3,7 +3,7 @@ import '../Styles/Navbar.css';
 
 const Footer = () => {
     return (
-        <div className="container-fluid position-fixed bottom-0 end-0  mb-5">
+        <div className="container-fluid  mb-5">
             <div className="container d-flex justify-content-between pb-4">
                 <div>
                     <img src="https://lh3.googleusercontent.com/7NabP8N3VdnHYt17iVcUvF_Hr2lFg-ayg1YnYIrvtWCtt-RtrnwVUzLZRUT3DSg3IkZHGqEte1v-_E590aB_AC0uCA-xthGO0d1YAA=-rw" width="377" height="30" alt="" />
