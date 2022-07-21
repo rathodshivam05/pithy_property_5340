@@ -1,5 +1,8 @@
 .shadow {
     border: 1px solid white;
+    /* position: sticky !important;
+    top: 0%;
+    z-index: 50; */
 }
 
 ul li {
@@ -21,12 +24,6 @@ ul li {
 }
 
 .social {
-    position: fixed;
-    bottom: 7%;
-    left: 75%;
+    margin-left: 80%;
     gap: 30px;
 }
-
-
-
-/* #1A73E8 - before hover after- 1751AB */

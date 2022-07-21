@@ -1,0 +1,114 @@
+.heading {
+
+    overflow-y: hidden;
+    text-overflow: ellipsis;
+    color: #3c4043;
+    font: normal 2.8rem/3.8rem Google Sans, Arial, sans-serif;
+}
+
+.child {
+    width: 60%;
+    margin-right: 70px;
+}
+
+#para1 {
+    text-overflow: ellipsis;
+    color: #424242;
+    margin-top: 16px;
+    overflow: hidden;
+    font-size: 18px;
+}
+
+.color {
+    background-color: #FBFBFC;
+}
+
+.zoom {
+    border-radius: 50%;
+    background-color: white;
+    width: 5%;
+    height: 33%;
+    padding: 12px;
+    margin: 50px 0px 0px 50px;
+}
+
+.zoomBox {
+    height: 180px;
+    color: white;
+}
+
+.img {
+    margin-left: 16%;
+    margin-top: 10px;
+}
+
+.webTitle {
+    font-size: 2rem;
+    line-height: 4rem;
+    margin-left: 3%;
+    margin-top: 10px;
+
+}
+
+#para2 {
+    font-size: 1.1rem;
+    color: white;
+    width: 83%;
+    margin-left: 3%;
+}
+
+#explore {
+    font-size: 1.2rem;
+    width: 20%;
+    height: 14%;
+    font-weight: bold;
+    margin-top: 7%;
+}
+
+#head2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 70px;
+}
+
+#para3 {
+    text-align: center;
+    width: 62%;
+    margin: auto;
+    font-size: 1.1rem;
+    margin-top: 10px;
+    font-weight: thin;
+}
+
+.cards {
+    width: 295px;
+    border: thin solid silver;
+    border-radius: 7px;
+    height: 317px;
+    padding: 15px 0px 0px 15px;
+    position: relative;
+}
+
+.courseHeading {
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 15px 0px 15px 0px;
+}
+
+.arrow {
+    position: absolute;
+    top: 85%;
+    right: 10%;
+}
+
+#para4 {
+    width: 50%;
+    font-size: 16px;
+}
+
+.faq {
+    width: 15%;
+    background-color: #E8EAED;
+    padding: 5px;
+    margin-bottom: 250px !important;
+}
