@@ -8,7 +8,7 @@ import Home from '../Pages/Home';
 import Feedback from '../Pages/Feedback';
 import Tools from '../Pages/Tools';
 import Faq from '../Pages/Faq';
-import SignIn from '../Pages/SignIn';
+import Login from '../Pages/Login';
 import Register from '../Pages/Register';
 
 const AllRoutes = () => {
@@ -23,9 +23,8 @@ const AllRoutes = () => {
             <Route path="/tools" element={<Tools />} />
             <Route path="/faqs" element={<Faq />} />
             <Route path="/feedback" element={<Feedback />} />
-            <Route path="/sign-in" element={<SignIn />} />
+            <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
-
         </Routes>
     )
 }
