@@ -10,6 +10,7 @@ import Tools from '../Pages/Tools';
 import Faq from '../Pages/Faq';
 import Login from '../Pages/Login';
 import Register from '../Pages/Register';
+import PrivateRoute from "./PrivateRoute"
 
 const AllRoutes = () => {
     return (
@@ -25,6 +26,15 @@ const AllRoutes = () => {
             <Route path="/feedback" element={<Feedback />} />
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
+            <Route
+                path="/"
+                element={
+                    <PrivateRoute>
+                        {" "}
+                        <Home />{" "}
+                    </PrivateRoute>
+                }
+            />
         </Routes>
     )
 }

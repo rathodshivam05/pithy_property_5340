@@ -1,8 +1,7 @@
 import { Accordion, AccordionItem, AccordionButton, AccordionPanel, AccordionIcon, Box } from '@chakra-ui/react'
 import '../Styles/Home.css';
-// https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC9SiNial833xcEha3llep6uFZFAJoJMMyvnpzMY96VPNDggtH
-
 const Home = () => {
+
     return (
         <>
             <div className="container d-flex p-5 justify-content-between">
